@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+.wrapper{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#calculadora{
+    display: grid;
+    grid-template-columns: 4;
+    grid-auto-rows: 40px;
+    width: 40vw;
+    height: 40vw;
+    background-color: red;
+    border-radius: 5%;
+}
+
+#visor{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: black;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
